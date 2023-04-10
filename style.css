@@ -1,0 +1,87 @@
+.title1{
+    justify-content: center;
+    display: flex;
+    color: rgb(90, 63, 63);
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #b3bcd3;
+}
+.navItem{
+    margin:0.5vw;
+    padding:0.5vw;
+    
+}
+.card {
+    display: flex;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(12, 10, 10, 0.2);
+    padding: 20px;
+    width: 300px;
+    margin: 20px;
+  }
+  
+  .card img {
+    width: 100%;
+    border-radius: 5px;
+  }
+  
+  .card h3 {
+    font-size: 24px;
+    margin-top: 11px;
+  }
+  
+  .card p {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
+  .button {
+    background-color: #4a5f78;
+    /* border: none; */
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px 20px;
+    margin-top: 10px;
+  }
+  
+  .button:hover {
+    background-color: #0056b3;
+  }
+  .flexCard {
+    display: flex;
+  }
+
+.scoreBoard{
+  display: flex;
+  padding: -4vw;
+    margin: -2vw;
+}
+.scoreBoardContent{
+  padding: 3vw;
+  
+}
+
+.buttons{
+  display: flex;
+  padding: 3vw;
+  
+}
+.timer{
+  display: flex;
+  margin:0.5vw;
+  font-size:44px;
+  align-items: center;
+}
+button{
+  margin: 3vw;
+  padding: 2vw;
+    font-size: 1.5vw;
+    font-weight: bold;
+}
